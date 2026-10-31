@@ -110,10 +110,12 @@ def main() -> None:
     for label, seeds in SEEDS.items():
         for seed in seeds:
             group_id += 1
-            variants = {seed}
+            variants = [seed]  # a list (not a set) keeps the order reproducible
             tries = 0
             while len(variants) < 1 + VARIANTS_PER_SEED and tries < 20:
-                variants.add(make_variant(seed, rng))
+                v = make_variant(seed, rng)
+                if v not in variants:
+                    variants.append(v)
                 tries += 1
             for v in variants:
                 rows.append({"text": v.strip(), "label": label, "group": group_id})
