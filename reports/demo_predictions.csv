@@ -1,0 +1,33 @@
+text,true_label,predicted,confidence,correct
+The courier left my package outside in the rain and now it is ruined.,Complaint,Complaint,0.614,True
+I have been on hold for 45 minutes and still no one has answered.,Complaint,Complaint,0.943,True
+Why was my subscription renewed when I clearly cancelled it last month?,Complaint,Complaint,0.674,True
+The technician never showed up even though I took a day off work.,Complaint,Complaint,0.599,True
+I would be thankful if someone could look into why my account was suspended.,Complaint,Complaint,0.913,True
+Third time my payment failed but the money left my account.,Complaint,Complaint,0.819,True
+"your app deleted all my saved addresses after the update, very annoying",Complaint,Complaint,0.406,True
+The room was dirty and the manager did not care.,Complaint,Complaint,0.862,True
+Could you tell me when the next batch of admissions opens?,Inquiry,Inquiry,0.712,True
+How much does express shipping cost for two kilograms?,Inquiry,Inquiry,0.768,True
+need invoice copy for march,Inquiry,Inquiry,0.942,True
+Is it possible to switch to the yearly plan?,Inquiry,Feedback,0.52,False
+Do you have any branch open on Sunday,Inquiry,Inquiry,0.854,True
+Which documents should I bring for the verification?,Inquiry,Inquiry,0.743,True
+What happens to my data if I delete my account?,Inquiry,Inquiry,0.893,True
+Where can I track my refund?,Inquiry,Inquiry,0.805,True
+"The new update looks great, though the font is a little small.",Feedback,Feedback,0.878,True
+Support agent was kind and explained everything patiently.,Feedback,Complaint,0.961,False
+I wish there were an option to export reports as PDF.,Feedback,Feedback,0.509,True
+Prices are a bit steep but I understand the quality is good.,Feedback,Feedback,0.984,True
+"The tutorial videos are clear, more of them would be welcome.",Feedback,Feedback,0.961,True
+"Not a fan of the new colour scheme, but everything works.",Feedback,Feedback,0.784,True
+great job on the faster loading times,Feedback,Feedback,0.594,True
+Maybe add a search bar on the home page?,Feedback,Feedback,0.464,True
+Good afternoon everyone,Other,Other,0.831,True
+"Thanks a lot, bye!",Other,Other,0.909,True
+"You have been selected for a free vacation, call now",Other,Other,0.504,True
+What is the tallest mountain in the world?,Other,Inquiry,0.887,False
+Haha that was funny,Other,Feedback,0.477,False
+Testing testing one two three,Other,Complaint,0.771,False
+Anyone know a good place for biryani in town?,Other,Other,0.457,True
+Wishing everyone a blessed Friday,Other,Other,0.76,True
